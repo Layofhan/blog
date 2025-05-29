@@ -1,7 +1,6 @@
 ---
 title: hello world
-tags: 
-  - testTag
+tags: ["testTag"]
 publishDate: 2025-05-29
 description: test
 image: /static/photos/photo_2023-12-30.jpg
@@ -12,3 +11,4 @@ featured: true
 
 test
 hello world
+测试是否会被重复构建

@@ -22,12 +22,4 @@ className="rounded-full max-w-md mx-auto shadow drop-shadow mt-8 hover:shadow-lg
 
 在自我无能的觉悟中，放下那虚妄的尊严与姿态，承认失误的刹那间，恰恰是自我解放的开始。
 
-## 订阅全文输出RSS
-
-[RSS2 Feed](/rss)
-
-[ATOM Feed](/atomfeed)
-
-[JSON Feed](/jsonfeed)
-
 <sup>最后修改于2025年05月29日</sup>
