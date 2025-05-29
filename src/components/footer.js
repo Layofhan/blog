@@ -45,30 +45,6 @@ export default function Footer() {
             </Link>
           </span>
           <span className="text-zinc-400 hover:text-zinc-500 transform duration-400">
-            <span className="sr-only">email</span>
-            <Link
-              href={`mailto:${sitemetadata.email}`}
-              aria-label="Email"
-              target="_blank"
-            >
-              <svg
-                className="fill-current w-6 h-6"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                aria-hidden="true"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M2.003 5.884 10 9.882l7.997-3.998A2 2 0 0 0 16 4H4a2 2 0 0 0-1.997 1.884z"
-                ></path>
-                <path
-                  d="m18 8.118-8 4-8-4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.118z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
-            </Link>
-          </span>
-          <span className="text-zinc-400 hover:text-zinc-500 transform duration-400">
             <Link href="/rss" aria-label="RSS" target="_blank">
               <svg
                 className="fill-current w-6 h-6"

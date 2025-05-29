@@ -1,22 +1,22 @@
 const siteMetadata = {
   title: "Han's 世界",
   author: "Han",
-  authorDesc:"想成为旅行家 ",
-  publishName: "Prologue",
-  headerTitle: "What's past is prologue",
+  authorDesc:"保持好奇心",
+  publishName: "Han",
+  headerTitle: "What's past is Han",
   description:
     "对当下的反思和批判",
   language: "zh-CN",
-  keywords:['prologue', '序章'],
+  keywords:['Han', '序章'],
   siteUrl: "https://blog-orcin-five-66.vercel.app",
-  siteRepo: "blog-orcin-five-66.vercel.app",
-  repoid:"",
-  categoryid: "",
+  siteRepo: "blog",
+  repoid:"R_kgDOOyZYKw",
+  categoryid: "DIC_kwDOOyZYK84Cquix",
   favicon: "/static/favicons/favicon.ico",
   avatar: "/static/favicons/avatar.png",
   cover: "/static/favicons/cover.png",
   email: "",
-  github: ""
+  github: "Layofhan"
 };
 
 module.exports = siteMetadata;

@@ -1,8 +1,9 @@
 ---
 title: hello world
-tags: []
+tags: [testTag]
 publishDate: 2025-05-29
 description: test
+featured: testFeatured
 ---
 
 test
