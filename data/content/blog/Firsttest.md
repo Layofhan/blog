@@ -1,9 +1,13 @@
 ---
 title: hello world
-tags: [testTag]
+tags: 
+  - testTag
 publishDate: 2025-05-29
 description: test
-featured: testFeatured
+image: /static/photos/photo_2023-12-30.jpg
+imageDesc: 
+lastmod: 2025-05-29
+featured: true
 ---
 
 test
