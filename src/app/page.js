@@ -26,8 +26,8 @@ export default function Home() {
     return acc;
   }, {});
 
-  const mostCommonTag = Object.keys(tagCount).reduce((a, b) =>
-    tagCount[a] > tagCount[b] ? a : b
+  const mostCommonTag = Object.keys(tagCount).reduce((a, b) => 
+    (tagCount[a] > tagCount[b] ? a : b), "" 
   );
 
   return (
