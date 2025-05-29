@@ -5,7 +5,7 @@ const siteMetadata = {
   publishName: "Han",
   headerTitle: "What's past is Han",
   description:
-    "对当下的反思和批判",
+    "记录自己的当下",
   language: "zh-CN",
   keywords:['Han', '序章'],
   siteUrl: "https://blog-orcin-five-66.vercel.app",
