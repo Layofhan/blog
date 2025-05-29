@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: "Han's 世界",
   author: "Han",
-  authorDesc:"想成为旅行家",
+  authorDesc:"想成为旅行家 ",
   publishName: "Prologue",
   headerTitle: "What's past is prologue",
   description:
