@@ -1,6 +1,6 @@
 ---
 title: 关于作者
-description: 作者槐序，00后边缘人。
+description: 作者Han，97年生人。
 ---
 
 ## 关于作者
@@ -14,9 +14,9 @@ className="rounded-full max-w-md mx-auto shadow drop-shadow mt-8 hover:shadow-lg
 
 > </img>
 
-<p className="text-center text-xl">槐序</p>
+<p className="text-center text-xl">Han</p>
 
-<center>00后/社会边缘人/孤独成瘾/拒绝仪式感/无政府主义</center>
+<center>高徒/攀登/健身/coding/努力探索这个世界....</center>
 
 请勿将希望寄托于任何人，过高的期盼不过是人性的桎梏，道德绑架与投射性认同交织成无形的囚笼；
 
@@ -30,4 +30,4 @@ className="rounded-full max-w-md mx-auto shadow drop-shadow mt-8 hover:shadow-lg
 
 [JSON Feed](/jsonfeed)
 
-<sup>最后修改于2024年12月2日</sup>
+<sup>最后修改于2025年05月29日</sup>
