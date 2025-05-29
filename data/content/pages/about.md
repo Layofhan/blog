@@ -1,6 +1,6 @@
 ---
 title: 关于作者
-description: 作者Han，97年生人。
+description: Han，一个白日梦想家
 ---
 
 ## 关于作者
