@@ -8,7 +8,7 @@ const siteMetadata = {
     "对当下的反思和批判",
   language: "zh-CN",
   keywords:['prologue', '序章'],
-  siteUrl: "blog-orcin-five-66.vercel.app",
+  siteUrl: "https://blog-orcin-five-66.vercel.app",
   siteRepo: "blog-orcin-five-66.vercel.app",
   repoid:"",
   categoryid: "",
