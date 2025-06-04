@@ -13,7 +13,7 @@ const siteMetadata = {
   repoid:"R_kgDOOyZYKw",
   categoryid: "DIC_kwDOOyZYK84Cquix",
   favicon: "/static/favicons/favicon.ico",
-  avatar: "/static/favicons/avatar.png",
+  avatar: "/static/favicons/blogHeadPic2.png",
   cover: "/static/favicons/cover.png",
   email: "",
   github: "Layofhan"
