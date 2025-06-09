@@ -7,6 +7,7 @@ import rehypeShiki from "@shikijs/rehype";
 import readingTime from "reading-time";
 import rehypeFigure from "rehype-figure";
 import remarkGemoji from "remark-gemoji";
+import rehypeRaw from "rehype-raw";
 
 /** @type {import('contentlayer2/source-files').ComputedFields} */
 const computedFields = {
@@ -122,6 +123,7 @@ export default makeSource({
   markdown: {
     remarkPlugins: [remarkGfm, remarkMath, remarkGemoji],
     rehypePlugins: [
+      rehypeRaw,
       [
         rehypeShiki,
         {

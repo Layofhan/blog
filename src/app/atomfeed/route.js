@@ -21,8 +21,8 @@ export async function GET() {
       atom: `${siteMetadata.siteUrl}/atomfeed`,
     },
     author: {
-      name: "槐序",
-      email: "hello@prologue.dev",
+      name: `${siteMetadata.author}`,
+      email: `${siteMetadata.email}`,
       link: `${siteMetadata.siteUrl}/about`,
     },
   });
@@ -37,8 +37,8 @@ export async function GET() {
         description: post.description,
         content: `<p>${post.description}</p> <hr> ${post.body.html} <hr> <a href=${siteMetadata.siteUrl}>${siteMetadata.title}</a> <p>${siteMetadata.description}</p>  <p>作者${siteMetadata.author}</p> <p>${format(new Date(post.publishDate), "yyyy MMMM do")}发布</p>`,
         author: {
-          name: "槐序",
-          email: "hello@prologue.dev",
+          name: `${siteMetadata.author}`,
+          email: `${siteMetadata.email}`,
           link: `${siteMetadata.siteUrl}/about`,
         },
         id: `${siteMetadata.siteUrl}${post.slug}`,

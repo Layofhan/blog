@@ -21,8 +21,8 @@ export async function GET() {
       atom: `${siteMetadata.siteUrl}/atomfeed`,
     },
     author: {
-      name: "槐序",
-      email: "hello@prologue.dev",
+      name: `${siteMetadata.author}`,
+      email: `${siteMetadata.email}`,
       link: `${siteMetadata.siteUrl}/about`,
     },
   });

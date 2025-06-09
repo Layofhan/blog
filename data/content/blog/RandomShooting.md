@@ -10,4 +10,4 @@ featured: true
 # 2025-06-07 花
 今天周六，去4s店把车拿回来，顺道去盒马逛了圈买一些食材。看到有鲜花卖，所以... 还不赖-.-
 
-![this is flow](/static/photos/RandomShooting/20250607flow1.jpg "Flow")
+![this is flow](../public/static/photos/RandomShooting/20250607flow1.jpg "Flow")
