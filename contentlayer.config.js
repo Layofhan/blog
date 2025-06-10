@@ -8,6 +8,7 @@ import readingTime from "reading-time";
 import rehypeFigure from "rehype-figure";
 import remarkGemoji from "remark-gemoji";
 import rehypeRaw from "rehype-raw";
+import brPreserver from './src/components/br-preserver';
 
 /** @type {import('contentlayer2/source-files').ComputedFields} */
 const computedFields = {
@@ -121,9 +122,8 @@ export default makeSource({
   contentDirPath: "./data/content",
   documentTypes: [Post, Page],
   markdown: {
-    remarkPlugins: [remarkGfm, remarkMath, remarkGemoji],
+    remarkPlugins: [remarkGfm, remarkMath, remarkGemoji, brPreserver],
     rehypePlugins: [
-      rehypeRaw,
       [
         rehypeShiki,
         {
