@@ -32,8 +32,9 @@ const computedFields = {
   headings: {
     type: "json",
     resolve: async (doc) => {
-      const regXHeader = /\n(?<flag>#{2,6})\s+(?<content>.+)/g;
-      const headings = Array.from(doc.body.raw.matchAll(regXHeader)).map(
+      const withoutCodeBlocks = doc.body.raw.replace(/```[\s\S]*?```/g, "");
+      const regXHeader = /^(?<flag>#{1,3})\s+(?<content>.+)$/gm;
+      const headings = Array.from(withoutCodeBlocks.matchAll(regXHeader)).map(
         ({ groups }) => {
           const flag = groups?.flag;
           const content = groups?.content;
@@ -41,7 +42,7 @@ const computedFields = {
             level:
               flag?.length == 1 ? "one" : flag?.length == 2 ? "two" : "three",
             text: content,
-            id: content.split(" ").join("-").toLowerCase(),
+            id: content.split(" ").join("-").toLowerCase().split("、").join("").split(/\./).join("").split(/\//).join(""),
           };
         }
       );

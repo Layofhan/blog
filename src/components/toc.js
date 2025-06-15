@@ -21,7 +21,7 @@ function useHighlighted(id) {
       threshold: 0.4,
     });
 
-    const elements = document.querySelectorAll("h2, h3, h4");
+    const elements = document.querySelectorAll("h1, h2, h3");
     elements.forEach((elem) => observer.current.observe(elem));
     return () => observer.current?.disconnect();
   }, []);
