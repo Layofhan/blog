@@ -14,7 +14,7 @@ P3: 入手一段时间的摩卡壶，第一次进行了尝试。 -- 嗯，还不
 
 ![崖壁晚霞](/static/photos/RandomShooting/20250720fanzengjian1.jpg)
 ![第一次帐篷过夜呢](/static/photos/RandomShooting/20250720fanzengjian2.jpg)
-![户外人的精神食粮，哈哈哈哈哈](/static/photos/RandomShooting/20250720fanzengjian3.jpg)
+![户外人的精神食粮](/static/photos/RandomShooting/20250720fanzengjian3.jpg)
 
 # 2025-07-07 南太行
 P1: 顶着高温一天走了20多公里，断层式垂直耸立的山体也是第一次感受，最后的绝望坡确实让人很绝望，几乎是爬几步歇一下，走完直接两腿报废。<br/>
