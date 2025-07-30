@@ -43,9 +43,9 @@ export default function RootLayout({ children }) {
             <Footer />
           </div>
         </Providers>
+        <GoogleAnalytics gaId="G-4JBHBVQTKB" />
         <Analytics />
         <SpeedInsights />
-        <GoogleAnalytics gaId="G-4JBHBVQTKB" />
       </body>
     </html>
   );
