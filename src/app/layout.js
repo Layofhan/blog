@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 import siteMetadata from "../../data/sitemetadata";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import Script from 'next/script';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
@@ -35,11 +35,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang={siteMetadata.language} suppressHydrationWarning>
-      <Script 
-          src="/blog/public/googleanalystis.js" 
-          strategy="afterInteractive" // 不阻塞页面渲染
-          id="common-js"
-        />
       <body className="mx-auto bg-white dark:bg-black selection:bg-[#d7ffff] dark:selection:bg-[#006482a2]">
         <Providers>
           <Navbar />
@@ -48,6 +43,7 @@ export default function RootLayout({ children }) {
             <Footer />
           </div>
         </Providers>
+        <GoogleAnalytics gaId="G-4JBHBVQTKB" />
         <Analytics />
         <SpeedInsights />
       </body>
