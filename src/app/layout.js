@@ -5,6 +5,7 @@ import Footer from "../components/footer";
 import siteMetadata from "../../data/sitemetadata";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
         </Providers>
         <Analytics />
         <SpeedInsights />
+        <GoogleAnalytics gaId="G-4JBHBVQTKB" />
       </body>
     </html>
   );
